@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todoli</title>
+    <link rel="stylesheet" href="css/main.css">
     <!-- <link rel="stylesheet" href="css/main.css"> -->
 </head>
+
 <body>
     <header>
-        <img class="logo" src="img\logo.png" alt="로고사진">
-        <span class="site-name">Todoli</span>
+        <div class="logo-title">
+            <img class="logo" src="img\logo.png" alt="로고사진">
+            <span class="site-name">Todoli</span>
+        </div>
         <nav class="navigator">
             <a href="">목록1</a>
             <a href="">목록2</a>
@@ -21,20 +26,20 @@
     <main>
         <section class="tdl-list-container">
             <div class="tdl-constructor">
-                <select name="" id="">  
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
-                        <option value="2024">2024</option>
-                        <option value="2026">2026</option>
-                        <option value="2027">2027</option>
-                        <option value="2028">2028</option>
-                        <option value="2029">2029</option>
-                        <option value="2030">2030</option>
-                        <option value="2031">2031</option>
-                        <option value="2032">2032</option>
-                        <option value="2033">2033</option>
-                        <option value="2034">2034</option>
-                        <option value="2035">2035</option>
+                <select name="" id="">
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2024">2024</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                    <option value="2028">2028</option>
+                    <option value="2029">2029</option>
+                    <option value="2030">2030</option>
+                    <option value="2031">2031</option>
+                    <option value="2032">2032</option>
+                    <option value="2033">2033</option>
+                    <option value="2034">2034</option>
+                    <option value="2035">2035</option>
                 </select>
                 <select name="" id="">
                     <option value="1">1</option>
@@ -83,25 +88,25 @@
                     <option value=30>30</option>
                     <option value=31>31</option>
                 </select>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea placeholder="날짜를 선택하고 해야할 일을 적으세요." name="" id="" cols=50 rows="7"></textarea>
                 <button>생성</button>
             </div>
             <div class="tdl-list">
-                <ul>
-                    <li>
-                        <div>
-                            <div>
+                <ol>
+                    <li class="wtd">
+                        <div class="wtd-date-content">
+                            <div class="wtd-date">
                                 <span>year</span>
                                 <span>month</span>
                                 <span>day</span>
                             </div>
-                            <div>
-                                <span>what to do</span>
+                            <div class="wtd-content">
+                                <span>what to
+                                    doaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span>
                             </div>
                         </div>
-                        <div>
+                        <div class="wtd-btns">
                             <button>해결</button>
-                            <button>실패</button>
                             <button>변경</button>
                             <button>취소</button>
                         </div>
@@ -112,33 +117,33 @@
                     <li></li>
                     <li></li>
                     <li></li>
-                </ul>
+                </ol>
             </div>
-            
+
         </section>
         <section class="tdl-done-container">
-            <div style="overflow:auto; width:150px; height:200px;">
-                <ul>
-                    <li>
-                        <div>
-                            <div>
-                                <span>year</span>
-                                <span>month</span>
-                                <span>day</span>
-                            </div>
-                            <div>
-                                <span>what you did</span>
-                            </div>
+            <ol>
+                <li class="wyd-li">
+                    <div class="wyd-cell">
+                        <div class="wyd-date">
+                            <span>year</span>
+                            <span>month</span>
+                            <span>day</span>
+                            <button class="wyd-btn">삭제</button>
                         </div>
-                    </li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div style="overflow:auto; width:150px; height: 200px;">
-            </div>
+                        <hr>
+                        <div class="wyd-content">
+                            <span>what
+                                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                                did</span>
+                        </div>
+                    </div>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
         </section>
 
     </main>
@@ -147,4 +152,5 @@
     </footer>
     <script src="js/main.js"></script>
 </body>
+
 </html>

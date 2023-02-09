@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 500px;
+  max-width: 1200px;
+  background-color: aquamarine;
+}
+
+main {
+  display: flex;
+  min-width: 800px;
+  max-width: 1200px;
+  height: 100rem;
+  border: solid 1px;
+}
+
+footer {
+  display: flex;
+  height: 100px;
+  min-width: 400px;
+  max-width: 1200px;
+  background-color: aquamarine;
+}
+
+.logo {
+  margin: 0;
+}
+
+.logo-title {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.site-name {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: beige;
+}
+
+.navigator {
+  margin-right: 10px;
+}
+
+.tdl-list-container {
+  margin: 0;
+  border: solid 1px;
+  width: 60%;
+}
+
+.tdl-done-container {
+  margin: 0;
+  border: solid 1px;
+  width: 40%;
+}
+
+.tdl-constructor {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  border: solid 1px;
+  width: 100%;
+  height: 10%;
+  background-color: cornsilk;
+}
+
+.tdl-list {
+  margin: 0;
+  border: solid 1px;
+  width: 100%;
+  height: 90%;
+}
+
+.wtd {
+  display: flex;
+  align-items: center;
+  height: 140px;
+  border: solid 2px;
+}
+
+.wtd-date-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  width: 90%;
+}
+
+.wtd-date {
+  width: 100%;
+  height: 20%;
+  padding-left: 10px;
+}
+
+.wtd-content {
+  width: 100%;
+  height: 80%;
+  font-size: x-large;
+  padding-left: 10px;
+  border: solid 1px;
+}
+
+.wtd-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.wyd-li {
+  width: 100%;
+  height: 150px;
+  border: solid 2px;
+}
+
+.wyd-date {
+  height: 15%;
+}
+
+.wyd-content {
+  display: flex;
+  height: 85%;
+  width: 100%;
+}
+
+.wyd-cell {
+  margin-left: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+ol {
+  padding: 0;
+  list-style: none;
+}
